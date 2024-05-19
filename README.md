@@ -58,7 +58,7 @@ Compile and run the standalone calculator:
 ## Iterative Connectionless (UDP)
 1. Compile the server and client:
 ```
-gcc -o udp_server udp_server.c
+gcc -o udp_server udp_server.c -lm
 gcc -o udp_client udp_client.c
 ```
 2. Run the server:
@@ -72,7 +72,7 @@ gcc -o udp_client udp_client.c
 # Iterative Connection-Oriented (TCP)
 1. Compile the server and client:
 ```
-gcc -o tcp_server tcp_server.c 
+gcc -o tcp_server tcp_server.c -lm
 gcc -o tcp_client tcp_client.c
 ```
 2. Run the server:
